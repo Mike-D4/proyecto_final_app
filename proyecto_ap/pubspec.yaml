@@ -1,0 +1,60 @@
+name: proyectoap
+description: A new Flutter application.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0+2  #Acceso a internet
+  webview_flutter: ^0.3.0 #vista de servicios web
+  webfeed: ^0.4.2 #Un paquete de dardos para analizar RSS y Atom.
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  shared_preferences:  ^0.5.7
+
+  #google_maps_flutter: ^0.0.3
+  #geolocator: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  image_test_utils: ^1.0.0 #tets imagen de internet
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/imagenes/
+    - assets/imagenes/platillo10.png
+    - assets/imagenes/platillo9.png
+    - assets/imagenes/platillo8.png
+    - assets/imagenes/platillo7.png
+    - assets/imagenes/platollo1.png
+    - assets/imagenes/platillo2.png
+    - assets/imagenes/platillo3.png
+    - assets/imagenes/platillo4.png
+    - assets/imagenes/platillo5.png
+    - assets/imagenes/platillo6.png
+  #- assets/audio/
+
+
